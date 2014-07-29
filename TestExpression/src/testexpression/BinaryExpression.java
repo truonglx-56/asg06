@@ -9,10 +9,10 @@ package testexpression;
 /**
  *
  * @author TruongLX
- */ abstract class BinaryExpression extends Expression{
-    public Expression Left(){}
-    public Expression Right(){}
-    public String toString(){}
-    public int valuate(){return 0;
-}
+ */ 
+class BinaryExpression extends Expression{
+    public Expression Left,Right;
+    public Expression Left(){return Left;}
+    public Expression Right(){return Right;}
+    
 }
